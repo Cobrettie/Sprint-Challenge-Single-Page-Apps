@@ -5,7 +5,7 @@ export default function EpisodeCard(props) {
     return (
         <Card
             header={props.episode.name}
-            meta={props.episode.date}
+            meta={props.episode.air_date}
             description={props.episode.episode}
         />
     )
